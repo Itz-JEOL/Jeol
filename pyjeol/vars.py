@@ -1,7 +1,6 @@
 from os import path, getenv
 import time
 import re
-import asyncio
 from os import environ as evn
 id_pattern = re.compile(r'^.\d+$')
 
