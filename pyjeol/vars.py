@@ -11,4 +11,4 @@ class Config:
     BOT_TOKEN = getenv("BOT_TOKEN", "")
     ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in evn.get('ADMINS', '').split()]
     
-cfg = Config()
+var = Config()
